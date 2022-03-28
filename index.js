@@ -20,6 +20,9 @@ const resultOne = firstRotate.rotation();
 const resultTwo = secondRotate.rotation();
 const resultThree = thirdRotate.rotation();
 
-console.log(resultOne);
-console.log(resultTwo);
-console.log(resultThree);
+console.log({
+firstRightRotation: resultOne,
+secondRightRotation: resultTwo,
+threeRightRotation: resultThree
+});
+
