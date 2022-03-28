@@ -16,6 +16,10 @@ const firstRotate = new Rotate([1, 2, 3, 4, 5, 6, 7], 3);
 const secondRotate = new Rotate([-1, -100, 3, 99], 2);
 const thirdRotate = new Rotate([100, 25, -10, 250, 999], 4);
 
-console.log(firstRotate.rotation());
-console.log(secondRotate.rotation());
-console.log(thirdRotate.rotation());
+const resultOne = firstRotate.rotation();
+const resultTwo = secondRotate.rotation();
+const resultThree = thirdRotate.rotation();
+
+console.log(resultOne);
+console.log(resultTwo);
+console.log(resultThree);
