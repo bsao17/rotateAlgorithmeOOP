@@ -15,15 +15,14 @@ class Rotate {
 
 // Second rotate method
 class RotateTwo extends Rotate {
-  constructor(nums, k){
-    super(nums, k)
+  constructor(nums, k) {
+    super(nums, k);
   }
-
-  rotation(){
-    const numsLength = this.nums.length
-    const rotateItem = this.nums.splice(numsLength - this.k)
-    this.nums.unshift(...rotateItem)
-    console.log({rotateTwo: this.nums})
+  rotation() {
+    const numsLength = this.nums.length;
+    const rotateItem = this.nums.splice(numsLength - this.k);
+    this.nums.unshift(...rotateItem);
+    console.log({ rotateTwo: this.nums });
   }
 }
 
@@ -36,8 +35,7 @@ const resultTwo = secondRotate.rotation();
 const resultThree = thirdRotate.rotation();
 
 console.log({
-firstRightRotation: resultOne,
-secondRightRotation: resultTwo,
-threeRightRotation: resultThree
+  firstRightRotation: resultOne,
+  secondRightRotation: resultTwo,
+  threeRightRotation: resultThree,
 });
-
