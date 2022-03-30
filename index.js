@@ -22,7 +22,7 @@ class RotateTwo extends Rotate {
     const numsLength = this.nums.length;
     const rotateItem = this.nums.splice(numsLength - this.k);
     this.nums.unshift(...rotateItem);
-    console.log({ rotateTwo: this.nums });
+    return this.nums;
   }
 }
 
